@@ -7,7 +7,7 @@ const importLazy = require('import-lazy')(require);
 
 const binCheck = importLazy('bin-check');
 const binVersionCheck = importLazy('bin-version-check');
-const download = importLazy('download');
+const download = importLazy('@hkjeffchan/dl');
 const osFilterObj = importLazy('os-filter-obj');
 
 const statAsync = pify(fs.stat);
